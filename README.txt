@@ -1,7 +1,7 @@
 ***********************************RGCOK********************************************
-Reference Genome Compression Algorithm using Optimal k-mer length
-							github link
-						Copyright (C) 2023
+	Reference Genome Compression Algorithm using Optimal k-mer length
+			https://github.com/AnshuOishik/RGCOK
+				Copyright (C) 2023
 ************************************************************************************
 Information
 1. Code is written in Notepad++ 
