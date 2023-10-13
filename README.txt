@@ -1,16 +1,16 @@
-************************************ MtK-mer & RGCOK ***************************
+************************************ MtK-mer & RGCOK ***************************************************************************
 					MtK-mer: Multi-Threaded Optimal k-mer length
 		RGCOK: Reference Genome Compression Algorithm using Optimal k-mer length
 							https://github.com/AnshuOishik/RGCOK
 								Copyright (C) 2023 
-********************************************************************************
+*******************************************************************************************************************************
 Information
 1. Code is written in Notepad++ 
 2. Implemented using java
 3. Run on Linux operating system
 4. The executable "bsc" should be put in the same directory of main class file
 5. Set "bsc" mode "chmod 777"
-********************************************************************************
+*******************************************************************************************************************************
 :::MtK-mer:::
 Compilation Command:
 javac Main.java
@@ -23,7 +23,7 @@ Testing kMer length from 9 to 21
 Where, chr.fa is the input file contains chromosomes
 8 is the number of threads
 -Xmx20g to increase heap memory size
-************************************************************************************
+******************************************************************************************************************************
 RGCOK:
 Compilation Command:
 javac -d . *.java
@@ -43,7 +43,7 @@ Argument "comp" for compression, "decomp" for decompression
 2 or 8 is the number of threads
 -Xmx20g to increase heap memory size
 
-*********************************************************************************************
+******************************************************************************************************************************
 Commands for "bsc" executable file generation from available code at
 https://github.com/IlyaGrebnov/libbsc
 Compilation commands:
