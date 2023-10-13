@@ -1,4 +1,4 @@
-************************************ MtK-mer & RGCOK ***************************************************************************
+				************************** MtK-mer & RGCOK *********************************
 					MtK-mer: Multi-Threaded Optimal k-mer length
 		RGCOK: Reference Genome Compression Algorithm using Optimal k-mer length
 							https://github.com/AnshuOishik/RGCOK
