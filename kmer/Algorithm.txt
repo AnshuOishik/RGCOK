@@ -1,9 +1,0 @@
-HRCM choosen k-mer lentgh = 14 manually
-
-
-Step 1. Reference Sequence Extraction (Follow HRCM but include n/N character positions)
-Step 2. Target Sequence Extraction (Follow HRCM)
-Step 3. Randomly choose n k-mer of length k from reference sequence (Random approach)
-Step 4. From target sequence count the number of occurance of each k-mer of reference sequence
-Step 5. Calculate (target_file_original_length - k-mer_size*total_number_of_occurance)
-Step 6. Select k-mer having minimum value in Step 5

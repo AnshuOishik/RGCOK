@@ -1,3 +1,0 @@
->Y_chr1.fa
-AGCTGGGCCCTTaaggtttnnnXXX
-TTTCCCGGGNNNaaaTTTccctttgX
