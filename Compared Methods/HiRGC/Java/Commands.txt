@@ -1,0 +1,22 @@
+cd Research/HiRGC
+
+javac HiRGCModifiedUbuntu.java
+java HiRGCModifiedUbuntu
+
+TIGR5.0_chr01.con TIGR6.0_chr01.con TIGR7.0_chr1.con
+
+TAIR9_chr1.fas TAIR10_chr1.fas
+
+sacCer2_chrI.fa sacCer3_chrI.fa
+
+ce10_chrI.fa ce6_chrI.fa ce11_chrI.fa
+
+
+
+
+First Compile java file
+Then create manifest.txt
+Then create jar file by the below command:
+jar -cfm HiRGC.jar manifest.txt HiRGCModified.class
+
+java -jar HiRGC.jar 
