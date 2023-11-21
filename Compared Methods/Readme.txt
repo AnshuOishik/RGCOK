@@ -54,7 +54,7 @@ Note: There are two more techniques to compress and decompress in the original H
 # Execution command: 
 > java -Xms8192m SCCGC R.fa T1.fa Result
 where,
-#the target sequence is "T1.fa" and the reference sequence is "R.fa"
+# the target sequence is "T1.fa" and the reference sequence is "R.fa"
 # The "T1.fa.7z" compressed sequence is kept in the "Result" folder
 
 # Decompression commands:
