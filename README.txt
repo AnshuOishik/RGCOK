@@ -19,9 +19,9 @@ Compilation Command:
 Execution Command:
 > java -Xmx20g Main chr.fa 8 
 
+Notice:
 # Testing k-mer length of size 9 to 21
-
-# chr.fa is the input file contains chromosomes name
+# The list of target file directories and the reference file path (the first line) are both found in chr.fa.
 # 8 is the number of threads
 # -Xmx20g to increase heap memory size
 *****************************************************************************************************************************
