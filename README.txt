@@ -1,34 +1,32 @@
-				******************************** MtK-mer & RGCOK *****************************************
+				    ********************************** MtK-mer & RGCOK *****************************************
 							MtK-mer: Multi-Threaded Optimal k-mer length
 					RGCOK: Reference Genome Compression Algorithm using Optimal k-mer length
 							https://github.com/AnshuOishik/RGCOK
 								Copyright (C) 2023 
-*****************************************************************************************************************************
-Informations
-1. Code is written in Notepad++ editor 
-2. Implemented using Java
-3. Run on Linux operating system
-4. The executable "bsc" should be put in the same directory of main class file
-5. Set "bsc" mode "chmod 0777"
-6. Please confirm that the physical memory on your computer is larger than 10GB.
+************************************************************************************************************************************************************
+Introduction
+To utilize the code, please use the Notepad++ editor.
+Java has been utilized by us in the implementation.
+Please use Linux as your operating system.
+Please confirm that the physical memory on your computer is larger than 10GB.
 ******************************************************************************************************************************************************************************
 MtK-mer: Multi-Threaded Optimal k-mer length
-MtK-mer algorithm obtained optimal k-mer length using randomization method. The optimal k-mer length obtained using MtK-mer is used by RGCOK to compress the specific sequence.
+The MtK-mer algorithm used the randomization method to determine the ideal k-mer length. RGCOK uses the ideal k-mer length discovered using MtK-mer to compress the particular sequence.
 
-Compilation Command:
+# Compilation Command:
 > javac Main.java
 
-Execution Command:
+# Execution Command:
 > java -Xms10240m Main chr.fa 8 
 
 Notice:
-# Testing k-mer length of size 9 to 21
+# Kindly test the k-mer length in sizes 9 through 21
 # The list of target file directories and the reference file path (the first line) are both found in chr.fa
-# 8 is the number of threads
+# The number of threads is eight (4, by default, is the optional value)
 # -Xms10240m is the initial allocation of memory
 *****************************************************************************************************************************
 RGCOK: Reference Genome Compression Algorithm using Optimal k-mer length
-RGCOK compresses sequences using optimal k-mer length obtained from MtK-mer
+RGCOK compresses sequences using optimal k-mer length obtained from MtK-mer algorithm.
 Compilation Command:
 > javac -d . *.java
 
@@ -36,16 +34,17 @@ Execution Command:
 Compression:
 > java -Xms10240m rgcok.RGCOK chr.fa comp 8
 Decompression:
-> java -Xms10240m  rgcok.RGCOK chr.fa decomp 8
+> java -Xms10240m rgcok.RGCOK chr.fa decomp 8
 
 # The list of target file directories and the reference file path (the first line) are both found in chr.fa
 # Argument "comp" for compression, "decomp" for decompression
 # "BscC.bsc" is the final compressed file produced using BSC compressor
 # 8 is the number of threads
 # -Xms10240m is the initial allocation of memory
+4. Please place the executable "bsc" in the main class file's directory.
+5. Kindly set "chmod 0777" for "bsc" mode.
 *************************************************************************************************************************
-Commands for "bsc" executable file generation from available code at
-https://github.com/IlyaGrebnov/libbsc
+Commands for "bsc" executable file generation from available code at https://github.com/IlyaGrebnov/libbsc
 Compilation commands:
 > g++ -c libbsc/adler32/adler32.cpp
 > g++ -c libbsc/bwt/libsais/libsais.c
