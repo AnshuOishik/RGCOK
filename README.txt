@@ -5,11 +5,12 @@
 								Copyright (C) 2023 
 *****************************************************************************************************************************
 Information
-1. Code is written in Notepad++ 
+1. Code is written in Notepad++ editor 
 2. Implemented using java
 3. Run on Linux operating system
 4. The executable "bsc" should be put in the same directory of main class file
 5. Set "bsc" mode "chmod 777"
+6. Please confirm that the physical memory on your computer is larger than 10GB.
 *****************************************************************************************************************************
 :::MtK-mer:::
 Compilation Command:
@@ -18,9 +19,9 @@ Compilation Command:
 Execution Command:
 > java -Xmx20g Main chr.fa 8 
 
-# Testing kMer length from 9 to 21
+# Testing k-mer length of size 9 to 21
 
-# chr.fa is the input file contains chromosomes
+# chr.fa is the input file contains chromosomes name
 # 8 is the number of threads
 # -Xmx20g to increase heap memory size
 *****************************************************************************************************************************
