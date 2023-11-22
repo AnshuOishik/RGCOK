@@ -4,9 +4,9 @@
 							https://github.com/AnshuOishik/RGCOK
 								Copyright (C) 2023 
 *****************************************************************************************************************************
-Information
+Informations
 1. Code is written in Notepad++ editor 
-2. Implemented using java
+2. Implemented using Java
 3. Run on Linux operating system
 4. The executable "bsc" should be put in the same directory of main class file
 5. Set "bsc" mode "chmod 0777"
@@ -23,7 +23,7 @@ Notice:
 # Testing k-mer length of size 9 to 21
 # The list of target file directories and the reference file path (the first line) are both found in chr.fa
 # 8 is the number of threads
-# -Xmx20g to increase heap memory size
+# -Xmx10g to increase heap memory size
 *****************************************************************************************************************************
 :::RGCOK:::
 Compilation Command:
