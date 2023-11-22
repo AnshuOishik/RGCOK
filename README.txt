@@ -11,13 +11,15 @@ Informations
 4. The executable "bsc" should be put in the same directory of main class file
 5. Set "bsc" mode "chmod 0777"
 6. Please confirm that the physical memory on your computer is larger than 10GB.
-*****************************************************************************************************************************
-:::MtK-mer:::
+******************************************************************************************************************************************************************************
+MtK-mer: Multi-Threaded Optimal k-mer length
+MtK-mer algorithm obtained optimal k-mer length using randomization method. The optimal k-mer length obtained using MtK-mer is used by RGCOK to compress the specific sequence.
+
 Compilation Command:
 > javac Main.java
 
 Execution Command:
-> java -Xmx20g Main chr.fa 8 
+> java -Xmx10g Main chr.fa 8 
 
 Notice:
 # Testing k-mer length of size 9 to 21
@@ -61,4 +63,4 @@ Compilation commands:
 
 Linking command:
 > g++ -o bsc bsc.o adler32.o bwt.o coder.o detectors.o libbsc.o libsais.o lzp.o platform.o preprocessing.o qlfc.o qlfc_model.o st.o
-*****************************************************************************************************************************
+***********************************************************************************************************************************
