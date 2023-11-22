@@ -1,5 +1,5 @@
 				******************************** MtK-mer & RGCOK *****************************************
-								MtK-mer: Multi-Threaded Optimal k-mer length
+							MtK-mer: Multi-Threaded Optimal k-mer length
 					RGCOK: Reference Genome Compression Algorithm using Optimal k-mer length
 							https://github.com/AnshuOishik/RGCOK
 								Copyright (C) 2023 
@@ -9,7 +9,7 @@ Information
 2. Implemented using java
 3. Run on Linux operating system
 4. The executable "bsc" should be put in the same directory of main class file
-5. Set "bsc" mode "chmod 777"
+5. Set "bsc" mode "chmod 0777"
 6. Please confirm that the physical memory on your computer is larger than 10GB.
 *****************************************************************************************************************************
 :::MtK-mer:::
@@ -21,7 +21,7 @@ Execution Command:
 
 Notice:
 # Testing k-mer length of size 9 to 21
-# The list of target file directories and the reference file path (the first line) are both found in chr.fa.
+# The list of target file directories and the reference file path (the first line) are both found in chr.fa
 # 8 is the number of threads
 # -Xmx20g to increase heap memory size
 *****************************************************************************************************************************
