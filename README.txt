@@ -19,30 +19,30 @@ Compilation Command:
 > javac Main.java
 
 Execution Command:
-> java -Xmx10g Main chr.fa 8 
+> java -Xms10240m Main chr.fa 8 
 
 Notice:
 # Testing k-mer length of size 9 to 21
 # The list of target file directories and the reference file path (the first line) are both found in chr.fa
 # 8 is the number of threads
-# -Xmx10g to increase heap memory size
+# -Xms10240m is the initial allocation of memory
 *****************************************************************************************************************************
-:::RGCOK:::
+RGCOK: Reference Genome Compression Algorithm using Optimal k-mer length
+RGCOK compresses sequences using optimal k-mer length obtained from MtK-mer
 Compilation Command:
 > javac -d . *.java
 
 Execution Command:
 Compression:
-> java -Xmx20g rgcok.RGCOK chr.fa comp 8
+> java -Xms10240m rgcok.RGCOK chr.fa comp 8
 Decompression:
-> java -Xmx20g  rgcok.RGCOK chr.fa decomp 8
+> java -Xms10240m  rgcok.RGCOK chr.fa decomp 8
 
-# "chr.fa" is the input file contains chromosomes file names
-# argument "comp" for compression, "decomp" for decompression
+# The list of target file directories and the reference file path (the first line) are both found in chr.fa
+# Argument "comp" for compression, "decomp" for decompression
 # "BscC.bsc" is the final compressed file produced using BSC compressor
-# 2 or 8 is the number of threads
-# -Xmx20g to increase heap memory size
-
+# 8 is the number of threads
+# -Xms10240m is the initial allocation of memory
 *************************************************************************************************************************
 Commands for "bsc" executable file generation from available code at
 https://github.com/IlyaGrebnov/libbsc
