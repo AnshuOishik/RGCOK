@@ -17,7 +17,7 @@ The MtK-mer algorithm used the randomization method to determine the ideal k-mer
 > javac -d *.java
 
 # Execution Command:
-> java -Xms10240m mtkmer.Main chr.fa 8 
+> java -Xms20240m mtkmer.Main chr.fa 8 
 
 Notice:
 # Kindly test the k-mer length in sizes 9 through 21
