@@ -2,7 +2,7 @@ package rgcok;
 import java.io.*;
 import java.util.*;
 class RGCOKDecompress {
-    static int max_seq_num = 2000, max_cha_num = 1 << 28, p = 25, k_mer_len = 4; 
+    static int max_seq_num = 120, max_cha_num = 1 << 28, p = 25, k_mer_len = 4; 
     static int kMer_bit_num = 2 * k_mer_len, hash_table_len = 1 << kMer_bit_num; 
 	static int max_arr_num_bit = 30, max_arr_num = 1<<max_arr_num_bit; 
     static int vec_size = 1 << 20, min_rep_len = k_mer_len+1; 
