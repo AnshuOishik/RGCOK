@@ -14,10 +14,10 @@ MtK-mer: Multi-Threaded Optimal k-mer length
 The MtK-mer algorithm used the randomization method to determine the ideal k-mer length. RGCOK uses the ideal k-mer length discovered using MtK-mer to compress the particular sequence.
 
 # Compilation Command:
-> javac Main.java
+> javac -d *.java
 
 # Execution Command:
-> java -Xms10240m Main chr.fa 8 
+> java -Xms10240m mtkmer.Main chr.fa 8 
 
 Notice:
 # Kindly test the k-mer length in sizes 9 through 21
