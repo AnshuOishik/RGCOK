@@ -7,7 +7,7 @@ class GenSequence {
     int[] low_vec_begin,low_vec_length,n_vec_begin,n_vec_length,spe_cha_pos,spe_cha_ch,low_vec_matched,n_vec_matched,diff_low_vec_begin,diff_n_vec_begin,diff_low_vec_length,diff_n_vec_length;
     List<MatEntry> match_result;
     GenSequence() {
-        int max_cha_num = 1 << 28, vec_size = 1 << 20; //max_cha_num = 1 << 20 (For Testing)
+        int max_cha_num = 1 << 28, vec_size = 1 << 20; 
         id = "";   
         line_width = code_len = low_vec_len = diff_low_vec_len = diff_n_vec_len = n_vec_len = spe_cha_len = 0; 
         code = new char[max_cha_num]; 
