@@ -13,7 +13,7 @@ class RGCOK {
 			Long start_time = System.currentTimeMillis();
 			System.out.println("Compression Started...");
 			
-            RGCOKCompress.initSettings(new File(args[0]));
+            RGCOKCompress.beginingSettings(new File(args[0]));
 			RGCOKCompress.seqCompress(args[0], thread_pool_size);
 			
 			//Compression using bsc encoder
@@ -30,7 +30,7 @@ class RGCOK {
 			Long start_time = System.currentTimeMillis();
 			System.out.println("Decompression Started...");
 
-			RGCOKDecompress.initSettings(new File(args[0]));
+			RGCOKDecompress.beginingSettings(new File(args[0]));
 			
 			//Decompression using bsc decoder
 			RGCOKDecompress.bscDecompression();
