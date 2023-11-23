@@ -826,7 +826,7 @@ class RGCOKCompress {
         return seq_paths.size();
     }
 	
-	static void initSettings(File file_path) { 
+	static void beginingSettings(File file_path) { 
         seq_number = readInputFile(file_path);
         sec_seq_num = (int) Math.ceil((double) (p * seq_number) / 100); 
         seq_bucket_len = getPrimeNumber(vec_size);
