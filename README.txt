@@ -8,7 +8,7 @@ Introduction
 To utilize the code, please use the Notepad++ editor.
 Java has been utilized by us in the implementation.
 Please use Linux as your operating system.
-Please confirm that the physical memory on your computer is larger than 10GB.
+Please confirm that the physical memory on your computer is larger than 10 GB.
 *****************************************************************************************************************************
 MtK-mer: Multi-Threaded Optimal k-mer Length
 The MtK-mer algorithm used the randomization method to determine the ideal k-mer length. RGCOK uses the ideal k-mer length discovered using MtK-mer to compress the particular sequence.
