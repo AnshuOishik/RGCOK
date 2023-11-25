@@ -42,7 +42,7 @@ Notice:
 # "decomp" is the argument for decompression, and "comp" for compression
 # The final compressed file created by the BSC compressor is called "BscC.bsc".
 # The number of threads is eight (4, by default, is the optional value)
-# -Xms10240m is the initial allocation of memory
+# -Xms10240m is the initial allocation of memory (MB)
 4. Please place the executable "bsc" in the main class file's directory.
 5. Kindly set "chmod 0777" for "bsc" mode.
 *************************************************************************************************************************
