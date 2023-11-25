@@ -17,12 +17,13 @@ The MtK-mer algorithm used the randomization method to determine the ideal k-mer
 > javac -d *.java
 
 # Execution Command:
-> java -Xms20240m mtkmer.Main chr.fa 8 
+> java -Xms10240m mtkmer.Main chr.fa 9 8 
 
 Notice:
 # Kindly test the k-mer length in sizes 9 through 21
 # The list of target file directories and the reference file path (the first line) are both found in chr.fa
 # The number of threads is eight (4, by default, is the optional value)
+# The value of k is nine
 # -Xms20240m is the initial allocation of memory
 *****************************************************************************************************************************
 RGCOK: Reference Genome Compression Algorithm using Optimal k-mer Length
