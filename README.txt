@@ -20,11 +20,10 @@ The MtK-mer algorithm used the randomization method to determine the ideal k-mer
 > java -Xms10240m mtkmer.Main chr.fa 9 8 
 
 Notice:
-# Kindly test the k-mer length in sizes 9 through 21
+# -Xms10240m is the initial allocation of memory (MB)
 # The list of target file directories and the reference file path (the first line) are both found in chr.fa
+# Nine is k's value. This value should be changed in order to check for various values of k (9 through 21)
 # The number of threads is eight (4, by default, is the optional value)
-# K has a value of nine. To check for different values of k, change this value
-# -Xms20240m is the initial allocation of memory
 *****************************************************************************************************************************
 RGCOK: Reference Genome Compression Algorithm using Optimal k-mer Length
 The MtK-mer technique yields the ideal k-mer length, which is used by RGCOK to compress sequences.
