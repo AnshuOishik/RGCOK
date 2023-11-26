@@ -2,14 +2,10 @@
 General information
 1. Executed on the Linux platform
 2. Please install the "7za" compressor
-Use the following instructions to install "7za" on the AWS Ubuntu platform.
->sudo apt-get update
->sudo apt-get install p7zip-full
-Please update the "7za" file's permissions to "0777" after that.
-=========================================================================================================================================
-ERGC
-=========================================================================================================================================
-NRGC
+You may use the following instructions to install "7za" on the AWS Ubuntu platform.
+> sudo apt-get update
+> sudo apt-get install p7zip-full
+# Please update the "7za" file's permissions to "0777" after that.
 =========================================================================================================================================
 										:::HiRGC:::
 :::Java:::
@@ -104,6 +100,8 @@ where,
 # -r is the reference (a FASTA file)
 # -t is the target (a text file containing target genomes)
 # "chr22.7z" is a compressed sequence that is decompressed to match the relevant target genomes.
-******************************************************************************************************************************************
+=========================================================================================================================================
+# The ERGC source code link is https://engineering.uconn.edu/~rajasek/ERGC.zip, and the NRGC source code link is https://engineering.uconn.edu/~rajasek/NRGC.zip. Please take note of these links. These two pages are currently unavailable. Therefore, using the same machine configuration as in the prior research, we used their result.
+=========================================================================================================================================
 ### Contacts 
 Please send an email to <subhankar.roy07@gmail.com> if you experience any issues.
