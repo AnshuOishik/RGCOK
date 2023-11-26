@@ -65,3 +65,5 @@ Compilation commands:
 Linking command:
 > g++ -o bsc bsc.o adler32.o bwt.o coder.o detectors.o libbsc.o libsais.o lzp.o platform.o preprocessing.o qlfc.o qlfc_model.o st.o
 =============================================================================================================================
+### Contacts 
+Please send an email to <subhankar.roy07@gmail.com> if you experience any issues.
