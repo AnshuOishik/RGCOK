@@ -1,1 +1,6 @@
-
+# File F1: Excel file that includes benchmark data sets for evaluating the suggested algorithm’s performance. (xls)
+# File F2: Excel file with varying hash matching numbers and k-mer lengths. (xls)
+# File F3: Excel file with the benchmark data sets’ ideal k-mer length finding time. (xls)
+# File F4: Excel file with the proposed and cutting-edge methods’ compression times (S) for data sets of other species. (xls)
+# File F5: Excel file with the proposed and cutting-edge algorithms’ human genome (hg) compression time (M). (xls)
+# File F6: Excel file containing the gain, ratio, and compressed file sizes (MB) of the hg data sets using the state-of-the-art and proposed techniques. (xls)
