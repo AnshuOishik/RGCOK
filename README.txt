@@ -3,12 +3,11 @@
 					RGCOK: Reference Genome Compression Algorithm using Optimal k-mer Length
 							https://github.com/AnshuOishik/RGCOK
 								Copyright (C) 2023 
-==================================================================================================================================================================
+=============================================================================================================================
 If you use RGCOK then please cite the paper as: 
-Subhankar Roy, Anirban Mukhopadhyay, A randomized optimal k-mer indexing approach for efficient parallel genome sequence compression,
-Gene, Volume 907, 2024, ISSN 0378-1119, https://doi.org/10.1016/j.gene.2024.148235.
+Subhankar Roy, Anirban Mukhopadhyay, A randomized optimal k-mer indexing approach for efficient parallel genome sequence compression, Gene, Volume 907, 2024, ISSN 0378-1119, https://doi.org/10.1016/j.gene.2024.148235.
 Link: https://www.sciencedirect.com/science/article/abs/pii/S0378111924001161
-==================================================================================================================================================================
+=============================================================================================================================
 Introduction
 To utilize the code, please use the Notepad++ editor.
 Java has been utilized by us in the implementation.
