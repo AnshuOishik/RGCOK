@@ -7,6 +7,7 @@
 If you use RGCOK then please cite the paper as: 
 Subhankar Roy, Anirban Mukhopadhyay, A randomized optimal k-mer indexing approach for efficient parallel genome sequence compression,
 Gene, Volume 907, 2024, ISSN 0378-1119, https://doi.org/10.1016/j.gene.2024.148235.
+Link: https://www.sciencedirect.com/science/article/abs/pii/S0378111924001161?via%3Dihub
 ==================================================================================================================================================================
 Introduction
 To utilize the code, please use the Notepad++ editor.
