@@ -83,4 +83,4 @@ Notice:
 > sudo apt-get install p7zip-full
 =============================================================================================================================
 ### Contacts 
-Please send an email to <subhankar.roy@aot.edu.in> if you experience any issues.
+Please send an email to <subhankar.roy07@gmail.com> if you experience any issues.
