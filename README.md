@@ -1,15 +1,15 @@
 # MtK-mer & RGCOK 
 ## MtK-mer: Multi-Threaded Optimal k-mer Length
 ## RGCOK: Reference Genome Compression Algorithm using Optimal k-mer Length
-## https://github.com/AnshuOishik/RGCOK
 ## If you use RGCOK then please cite the paper as: 
 Roy S, Mukhopadhyay A. A randomized optimal k-mer indexing approach for efficient parallel genome sequence compression. Gene. 2024 May 20;907:148235. https://doi.org/10.1016/j.gene.2024.148235
 
-# Introduction
+# Note
 ## To utilize the code, please use the Notepad++ editor.
 ## Java has been utilized by us in the implementation.
-## Please use Linux as your operating system.
-## Please use SSDs with built-in hardware compression
+## Please utilize Amazon Web Services (AWS) Linux as your operating system to achieve the best results.
+## Please make use of SSDs that have hardware compression built in.
+## In the local system, the outcome may differ.
 
 # MtK-mer: Multi-Threaded Optimal k-mer Length
 ## The MtK-mer algorithm used the randomization method to determine the ideal k-mer length. RGCOK uses the ideal k-mer length discovered using MtK-mer to compress the particular sequence.
@@ -25,7 +25,7 @@ $ java -Xms10240m mtkmer.Main chr.fa 9 30 8
 ```
 
 # Notice:
-## -Xms10240m is the initial allocation of memory (MB)
+## -Xms10240m is the initial allocation of memory (MiB)
 ## The list of target file directories and the reference file path (the first line) are both found in chr.fa
 ## The k-mer length's lower and upper bounds are 9 and 30
 ## The number of threads is eight (4, by default, is the optional value)
