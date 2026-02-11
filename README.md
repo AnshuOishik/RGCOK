@@ -14,17 +14,17 @@ Roy S, Mukhopadhyay A. A randomized optimal k-mer indexing approach for efficien
 # MtK-mer: Multi-Threaded Optimal k-mer Length
 ## The MtK-mer algorithm used the randomization method to determine the ideal k-mer length. RGCOK uses the ideal k-mer length discovered using MtK-mer to compress the particular sequence.
 
-## Compilation Command:
+## Compilation Command
 ```sh
 $ javac -d . *.java
 ```
 
-## Execution Command:
+## Execution Command
 ```sh
 $ java -Xms10240m mtkmer.Main chr.fa 9 30 8 
 ```
 
-# Notice:
+# Note
 ## -Xms10240m is the initial allocation of memory (MiB)
 ## The list of target file directories and the reference file path (the first line) are both found in chr.fa
 ## The k-mer length's lower and upper bounds are 9 and 30
@@ -33,20 +33,20 @@ $ java -Xms10240m mtkmer.Main chr.fa 9 30 8
 # RGCOK: Reference Genome Compression Algorithm using Optimal k-mer Length
 ## The MtK-mer technique yields the ideal k-mer length, which is used by RGCOK to compress sequences.
 
-## Compilation Command:
+## Compilation Command
 ```sh
 $ javac -d . *.java
 ```
-## Execution Command:
-## Compression:
+## Execution Command
+## Compression
 ```sh
 $ java -Xms10240m rgcok.RGCOK chr.fa comp 8
 ```
-## Decompression:
+## Decompression
 ```sh
 $ java -Xms10240m rgcok.RGCOK chr.fa decomp 8
 ```
-# Notice:
+# Note
 ## The list of target file directories and the reference file path (the first line) are both found in chr.fa
 ## "decomp" is the argument for decompression, and "comp" for compression
 ## Please execute the procedure listed at the end of this file to create an executable file for the BSC compressor
@@ -59,7 +59,7 @@ $ java -Xms10240m rgcok.RGCOK chr.fa decomp 8
 ## For "bsc" and "7za" modes, kindly set "chmod 0777"
 
 # Commands for "bsc" executable file generation from available code at https://github.com/IlyaGrebnov/libbsc
-## Compilation commands:
+## Compilation commands
 ```sh
 $ g++ -c libbsc/adler32/adler32.cpp
 $ g++ -c libbsc/bwt/libsais/libsais.c
@@ -78,11 +78,11 @@ $ g++ -c libbsc/platform/platform.cpp
 $ g++ -c libbsc/st/st.cpp
 $ g++ -c bsc.cpp
 ```
-## Linking command:
+## Linking command
 ```sh
 $ g++ -o bsc bsc.o adler32.o bwt.o coder.o detectors.o libbsc.o libsais.o lzp.o platform.o preprocessing.o qlfc.o qlfc_model.o st.o
 ```
-# Notice:
+# Note
 ## The created executable file name is bsc.
 
 # Installing the 7-zip compressor for Windows can be done at https://www.7-zip.org. according to your operating system.
