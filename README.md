@@ -87,7 +87,7 @@ The created executable file name is bsc.
 
 ## Installing the 7-zip compressor for Windows can be done at https://www.7-zip.org. according to your operating system.
 - Please set 7z path to environment variable.
-- Please use the following command to install 7-zip on Linux.
+## Please use the following command to install 7-zip on Linux.
 ```sh
 $ sudo apt-get update (If required)
 $ sudo apt-get install p7zip-full
