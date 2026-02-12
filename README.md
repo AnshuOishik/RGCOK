@@ -73,7 +73,7 @@ $ g++ -c libbsc/libbsc/libbsc.cpp
 $ g++ -c libbsc/lzp/lzp.cpp
 $ g++ -c libbsc/platform/platform.cpp
 ```
-## Please change the platform.cpp file. In lines 51 and 66, change 'MEM_LARGE_PAGES' in Linux (Ubuntu) to 'MEM_4MB_PAGES' in Windows 10.
+- Please change the platform.cpp file. In lines 51 and 66, change 'MEM_LARGE_PAGES' in Linux (Ubuntu) to 'MEM_4MB_PAGES' in Windows 10.
 ```sh
 $ g++ -c libbsc/st/st.cpp
 $ g++ -c bsc.cpp
@@ -83,7 +83,7 @@ $ g++ -c bsc.cpp
 $ g++ -o bsc bsc.o adler32.o bwt.o coder.o detectors.o libbsc.o libsais.o lzp.o platform.o preprocessing.o qlfc.o qlfc_model.o st.o
 ```
 ## Note
-he created executable file name is bsc.
+The created executable file name is bsc.
 
 ## Installing the 7-zip compressor for Windows can be done at https://www.7-zip.org. according to your operating system.
 - Please set 7z path to environment variable.
